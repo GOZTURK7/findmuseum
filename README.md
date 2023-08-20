@@ -1,12 +1,19 @@
-`TODO: Add a nice screenshot of the app!`
+![image](https://user-images.githubusercontent.com/111200262/229839420-9a65e65f-bf9f-4a9b-b08c-3f9c55611f69.png)
 
-# Class XX final project
+# Find Museum
 
 This is the final project for the HackYourFuture curriculum we did as a class using the MERN stack by following the agile methodology with our team and a group of mentors. A quick guide to what we built:
 
-> TODO: Add short description of the app
+With the increasing demand for museum visits, we thought of making such an app so that people can access museums and their information more easily. In our application, we have lots of features and detailed information about the museums in the Netherlands.
+Some of our features:
+- Authentication
+- Special offers
+- Upcoming events
+- Multiple filters
+- Favorites
+- Share experiences
 
-`[Click here for the Demo version](TODO: add link)`
+[Find Museum Demo](https://c40-team-sunday.herokuapp.com/)
 
 ## 1. Setup
 
@@ -27,33 +34,34 @@ To run the app in dev mode you can run the following command in the main directo
 ## 2. Code structure
 
 ```
-client
-├── public
-└── src
-|   └── __tests__
-|   └── __testUtils__
-|   └── components
-|   └── hooks
-|   └── pages
-|       └── __tests__
-|       └── components
-|   └── util
-|   index.jsx
-cypress
-|   └── fixtures
-|   └── integration
-|   └── plugins
-|   └── support
-server
-└── src
-    └── __tests__
-    └── __testUtils__
-    └── controllers
-    └── db
-    └── models
-    └── routes
-    └── util
-    index.js
+class40-project-team-sunday
+├─ client
+│  ├─ public
+│  └─ src
+│     ├─ App.jsx
+│     ├─ AppWrapper.jsx
+│     ├─ assets
+│     ├─ components
+│     ├─ context
+│     ├─ hooks
+│     ├─ index.jsx
+│     └─ pages
+├─ cypress
+|  ├─ fixtures
+|  ├─ integration
+|  ├─ plugins
+|  └─ support
+└─ server
+   └─ src
+      ├─ __tests__
+      ├─ app.js
+      ├─ controllers
+      ├─ data
+      ├─ db
+      ├─ index.js
+      ├─ models
+      ├─ routes
+      └─ util
 ```
 
 ### 2.1 Client structure
